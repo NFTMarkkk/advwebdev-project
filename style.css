@@ -1,0 +1,506 @@
+*{
+    margin: 0%;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    box-sizing: border-box;
+    width: 100%;
+}
+.first{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(23, 128, 129);
+}
+.first img{
+    margin-left: 5px;
+    width: 120px;
+    height: 80px;
+    padding: 5px 10px;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.map{
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.map i{
+    margin-top: 20px;
+    padding-right: 5px;
+    font-size: 30px;
+}
+.map div{
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+.map div span:first-child{
+    font-weight: 400px;
+    font-size: 13px;
+}
+.map div span{
+    font-weight: bold;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.flex span, i{
+    color: rgb(245, 240, 240);
+}
+.logo{
+    flex: 0.18;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+
+.right{
+    justify-content: space-between;
+    align-items: center;
+    flex: 0.28;
+    margin-right: 10px;
+}
+.input{
+    width: 100%;
+    border-radius: 5px;
+    align-items: center;
+    margin: 0px 10px;
+    flex: 0.53;
+    background-color: white;
+    overflow: hidden;
+    justify-content: space-between;
+}
+.input input{
+    outline: none;
+    width: 80%;
+    font-size: 16px;
+    padding: 10px 2px;
+    border: none;
+}
+.input .fa-search{
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 0 5px 5px 0;
+    background: linear-gradient(rgb(229, 218, 241), rgb(23, 128, 129))
+}
+.input div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 1px solid grey;
+    padding: 0 6px;
+}
+.input div span{
+    border-radius: 5px 0 0 5px;
+    color: grey; 
+    padding: 6px 5px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.input .fa-caret-down{
+    color: grey;
+    cursor: pointer;
+    padding: 5px;
+}
+.lang i{
+    padding: 0;
+    margin: 0;
+}
+.lang{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.right img{
+    width: 35px;
+    height: 30px;
+    padding: 2px;
+    margin: 0;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.sign{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 6px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.sign span:first-child{
+    font-weight: 400;
+    font-size: 13px;
+}
+.sign span{
+    display: inline-block;
+    width: 100%;
+    font-weight: bold;
+}
+.flex .ac span{
+    font-size: 15px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+.fa-shopping-cart{
+    font-size: 30px;
+}
+.ca{
+    font-size: 14px;
+    font-weight: bold;
+}
+.cart{
+    align-items: flex-end;
+    position: relative;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.cart p{
+    position: absolute;
+    font-weight: bolder;
+    color: grey;
+    top: 7px;
+    left: 25px;  
+}
+.cart:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.logo img:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.map:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.lang:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.sign:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.input .fa-search:hover{
+    background: rgb(23, 128, 129),rgb(229, 218, 241) ;
+    color: black;
+}
+.input div:hover{
+    background-color: white;
+    color: black;
+}
+.second{
+    width: 100%;
+    height: 42px;
+    background-color: rgb(61, 177, 179);
+    display: flex;
+    align-items: center;
+    color: white;
+    overflow: hidden;
+}
+.second ul{
+    align-self: center;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+.second span{
+    font-size: 15px;
+}
+.second-1 div i{
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.second li{
+    padding: 5px 10px;
+    font-size: 15px;
+    margin: 7px 0;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.second-1{
+    flex: 0.06;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-1 div{
+    display: flex;
+    align-self: center;
+    padding-left: 5px;
+}
+.second-2{
+    display: flex;
+    flex: 0.74;
+    justify-content: flex-start;
+}
+.second-3{
+    flex: 0.2;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    overflow: hidden;
+}
+.second-3 span{
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.second-1 div span{
+    padding: 5px;
+    cursor: pointer;
+}
+.second-1 div:hover{
+    border: 1px solid white;
+}
+.second-2 li:hover{
+    border: 1px solid white;
+}
+.second-3 span:hover{
+    border: 1px solid white;
+}
+.sec-1{
+    position: relative;
+    width: 100%;
+    height: 1190px;
+    box-sizing: border-box;
+}
+.slide img{
+    width: 1360px;
+    height: 100%;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: auto; 
+}
+.slider{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 560px;
+}
+.image-box{
+    display: flex;
+    position: absolute;
+    animation: carousel 15s alternate infinite;
+}
+@keyframes carousel{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0%;
+    }
+    24%{
+        left: -1360px;
+    }
+    50%{
+        left: -1360px;
+    }
+    54%{
+        left: calc(-1360*2px);
+    }
+    80%{
+        left: calc(-1360*2px);
+    }
+    84%{
+        left: calc(-1360*3px);
+    }
+    100%{
+        left: calc(-1360*3px);
+    }
+}
+.container-1{
+    position: absolute;
+    z-index: 1;
+    top: 230px;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, transparent, rgb(87, 230, 233) 30%);
+}
+.container-1 .para{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+.container-1 div:first-child p{
+    font-size: 14px;
+    padding: 12px 0;
+}
+.product-comp{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    margin: 20px 0;
+    justify-content: space-around;
+}
+.product-comp .box{
+    width: 315px;
+    height: 400px;
+    background-color: white;
+}
+.box h3{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.box a{
+    font-size: 13px;
+    margin-left: 20px;
+    display: block;
+    padding-top: 30px;
+}
+.box-a{
+    overflow: hidden;
+    background-color: white;
+}
+.box div img{
+    width: 167px;
+    height: 120px;
+    cursor: pointer;
+    margin-left: -20px;
+    margin-right: 0;
+}
+.box-a div{
+    display: inline-block;
+}
+.box-a div span{
+    display: block;
+    font-size: 13px;
+    margin-left: 20px;
+}
+.box-b{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.box-b .best{
+    background-color: white;
+    height: 130px;
+    width: 315px;
+}
+.best h3{
+    font-size: 23px;
+    margin: 20px;
+    margin-bottom: 15px;
+}
+.best button{
+    border-radius: 7px;
+    box-shadow: 1px 2px 5px white;
+    color: white;
+    background-color: rgb(61, 177, 179);
+    width: 280px;
+    margin-left: 20px;
+    height: 30px;
+    border: none;
+}
+.box.box-c img{
+    margin: 0 20px;
+    width: 275px;
+    cursor: pointer;
+    height: 280px;
+}
+.sec-2{
+    width: 100%;
+    height: 315px;
+    padding: 25px;
+    padding-top: 0;
+    padding-bottom: 25px;
+}
+.slide-sec h3{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.slide-sec{
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px 10px 20px;
+    overflow-x: hidden;
+    background-color: white;
+    position: relative;
+}
+.product-slide{
+    display: flex;
+    margin-top: 5px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+.product-slide::-webkit-scrollbar{
+    background-color: transparent;
+    height: 7px;
+    cursor: pointer;
+}
+.product-slide::-webkit-slider-thumb{
+    border-radius: 10px;
+    cursor: pointer;
+}
+.product-slide li{
+    list-style: none;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.l-btn,
+.r-btn{
+    background-color: rgb(255, 255, 255);
+    height: 90px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+    top: 35%;
+    position: absolute;
+    border: 3px solid transparent;
+}
+.l-btn{
+    border-radius: 0 5px 5px 0;
+    left: 20px;
+}
+.r-btn{
+    border-radius: 5px 0 0 5px;
+    right: 20px;
+}
+.l-btn:hover{
+    border: 3px solid rgb(61, 177, 179);
+}
+.r-btn:hover{
+    border: 3px solid rgb(61, 177, 179);
+}
+.r-btn i,
+.l-btn i{
+    color: black;
+    position: absolute;
+    font-size: 30px;
+    top: 35%;
+    left: 13%;
+    right: 13%;
+}
